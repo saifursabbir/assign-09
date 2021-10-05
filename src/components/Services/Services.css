@@ -1,0 +1,21 @@
+.services-style{
+    background-color: #303952 ;
+}
+.card-style{
+    background-color:#3867d6;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.card-style:hover{
+ background-color: #303952;
+    color: royalblue;
+}
+.sev-btn{
+   align-items: center;
+}
+.services-title{
+    color: #eb3b5a;
+}
+.service-title{
+    color: #fff;
+}
