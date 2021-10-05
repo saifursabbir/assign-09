@@ -4,21 +4,25 @@ import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Services from '../Services/Services';
 import home from './Home.css'
-
+import img1 from '../img/undraw_Before_dawn_re_hp4m.svg';
 const Home = () => {
     return (
         <div className="primary">
             <Container>
                 <Row>
                     <Col>
-                        <div className="home-title p-5 m-5">
+                        <div className="home-title p-5 m-3">
                             <p className="sub-title">EXCLUSIVE ACCESS</p>
                             <h1>Unlimited Transactions <br /> with zero fees</h1>
                             <p><small>Get access to our exclusive dilamond card that allows you to send unlimited transactions without getting charged any fees</small></p>
                             <Button className="" variant="primary">Get Started</Button>
                         </div>
                     </Col>
-                    <Col><img src="" alt="" /></Col>
+                    <Col>
+                        <div>
+                            <img className="img-style" src={img1} alt="" />
+                        </div>
+                    </Col>
                 </Row>
             </Container>
             <Services></Services>
@@ -27,7 +31,7 @@ const Home = () => {
             <div className="footer-style">
                 <Container>
                     <Row>
-                        <div className="footer-title m-5 p-3 text-center">
+                        <div className="footer-title m-5 text-center">
                             <h4>Join our exclusive memebership to receive the latest news and trends</h4>
                             <p>You can unsubscribe at ant time.</p>
                             <Button variant="outline-secondary">subscribe</Button>
@@ -60,7 +64,7 @@ const Home = () => {
                             </div>
                         </Col>
                     </Row>
-                </Container> */}
+                </Container>
             </div>
         </div>
     );

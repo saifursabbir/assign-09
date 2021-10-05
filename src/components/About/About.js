@@ -10,7 +10,7 @@ const About = () => {
                     <h1 className="about-style text-center">WELCOME TO LAVISH</h1>
                     <Col>
                         <div className="home-title p-3 m-5">
-                            <h2>About Us</h2>
+                            <h4 className="about-style">About Us</h4>
                             <p>There are countless online education marketplaces on the internet. And there’s us. We are not the biggest. We are not the cheapest. But we are the fastest growing. We have the highest course completion rate in the industry.
 
 
@@ -19,13 +19,12 @@ const About = () => {
                     </Col>
                     <Col>
                         <div className="home-title p-3 m-5">
-                            <h2>Our Vision</h2>
+                            <h4 className="about-style">Our Vision</h4>
                             <p>To become the largest online learning ecosystem for continuing education, in partnership with corporates and academia.</p>
-                            <h2>Our Mission</h2>
+                            <h4 className="about-style">Our Mission</h4>
                             <p>To create an alternate platform for students who wish to continue and complete courses by attending live online courses, using a team of ridiculously committed educators who will stop at nothing to impart education, helped by a 24 x 7 support system. By deploying our world class team of industry experts, we aim to educate our learners with the skills they need to advance their professional life to the next level.</p>
                         </div>
                     </Col>
-                    <Contact></Contact>
                 </Row>
             </Container>
         </div>

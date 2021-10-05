@@ -9,7 +9,7 @@ const Services = () => {
             <div className="p-5">
                 <Container>
                     <Row>
-                        <h1 className="services-title text-center p-3">Our Services</h1>
+                        <h1 className="services-title text-center">Our Services</h1>
                         <h3 className="services-title p-5">Pricing</h3>
                         <Col><Card style={{ width: '18rem' }}>
                             <div className="card-style">
@@ -52,8 +52,6 @@ const Services = () => {
                                 </Card.Body>
                             </div>
                         </Card></Col>
-                        <Contact></Contact>
-                        <About></About>
                     </Row>
                 </Container>
             </div>
